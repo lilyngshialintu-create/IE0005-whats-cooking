@@ -201,6 +201,17 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# ==============================
+# Project-specific (IE0005)
+# ==============================
+
+# Raw & derived data (do NOT commit)
+data/
+*.csv
+*.json
+*.zip
+
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
