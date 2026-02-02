@@ -31,20 +31,22 @@ We explore the dataset, perform data cleaning and feature extraction, and apply 
 
 ## Repository Structure
 
+```
 IE0005-MiniProject/
 ├── notebooks/
-│ ├── IE0005MiniProjectDataCleaning.ipynb
-│ ├── IE0005MiniProjectExplolatoryAnalysis.ipynb
-│ ├── MiniProject_KNN.ipynb
-│ ├── MiniProject_Code (2).ipynb # Random Forest
-│ ├── MiniProject_Dairy.ipynb # Decision Tree
-│ ├── MiniProject_Peanut.ipynb
-│ ├── MiniProject_Seafood.ipynb
-│ └── MiniProject_eggs.ipynb
-├── IE0005 Mini Project.pdf # Slides / Report
+│   ├── IE0005MiniProjectDataCleaning.ipynb
+│   ├── IE0005MiniProjectExplolatoryAnalysis.ipynb
+│   ├── MiniProject_KNN.ipynb
+│   ├── MiniProject_Code (2).ipynb        # Random Forest
+│   ├── MiniProject_Dairy.ipynb           # Decision Tree
+│   ├── MiniProject_Peanut.ipynb
+│   ├── MiniProject_Seafood.ipynb
+│   └── MiniProject_eggs.ipynb
+├── IE0005 Mini Project.pdf               # Slides / Report
 ├── README.md
 └── .gitignore
 
+```
 ---
 
 ## Dataset (Not Included)
@@ -62,9 +64,11 @@ https://www.kaggle.com/c/whats-cooking
 2. Create a folder called `data/` in the project root.
 3. Place `train.json` inside the folder:
 
+```
 IE0005-MiniProject/
 └── data/
-└── train.json
+    └── train.json
+```
 
 > The `data/` folder is ignored by Git to prevent accidental uploads of dataset files.
 
